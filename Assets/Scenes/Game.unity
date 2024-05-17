@@ -5016,7 +5016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &408596878
 Transform:
   m_ObjectHideFlags: 0
@@ -11594,6 +11594,9 @@ MonoBehaviour:
   gameOver: 0
   winnerUI: {fileID: 1661633896}
   player: {fileID: 1307041885}
+  levelOne: {fileID: 1742913502}
+  levelTwo: {fileID: 408596877}
+  currentLevel: 1
 --- !u!4 &830316568
 Transform:
   m_ObjectHideFlags: 0
@@ -19383,7 +19386,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427051894}
-  m_LocalRotation: {x: 0.14229867, y: 0.000000008515642, z: -0.0000000012242225, w: 0.9898238}
+  m_LocalRotation: {x: 0.14229867, y: -0.000000008515643, z: 0.0000000012242227, w: 0.9898238}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -27228,7 +27231,7 @@ PrefabInstance:
     - target: {fileID: 3090305506264670266, guid: e6204ab31da16b5468b048819a83c0a5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43.17
+      value: -15.322
       objectReference: {fileID: 0}
     - target: {fileID: 3090305506264670266, guid: e6204ab31da16b5468b048819a83c0a5,
         type: 3}
@@ -27238,7 +27241,7 @@ PrefabInstance:
     - target: {fileID: 3090305506264670266, guid: e6204ab31da16b5468b048819a83c0a5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.58
+      value: -4.351
       objectReference: {fileID: 0}
     - target: {fileID: 3090305506264670266, guid: e6204ab31da16b5468b048819a83c0a5,
         type: 3}
